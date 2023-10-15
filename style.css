@@ -1,0 +1,16 @@
+#dog-img {
+  animation-name: slideIn;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes slideIn {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 100%) rotate(180deg) scale(0.3);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
